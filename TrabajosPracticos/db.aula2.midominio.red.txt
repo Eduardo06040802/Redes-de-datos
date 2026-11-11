@@ -1,0 +1,55 @@
+$TTL 1D
+@       IN      SOA ns.aula2.midominio.red. leonardorciceri.gmail.com. (
+        1       ; número de serie
+        604800  ; refresco
+        86400   ; reintento
+        2419200 ; expiración
+        604800  ; Caché negativa TTL
+);
+					IN	NS	ns.aula2.midominio.red.
+ns.aula2.midominio.red.			IN	A	172.16.2.106
+micompu.aula2.midominio.red.		IN	A	172.16.2.90
+minotebook.aula2.midominio.red.		IN	CNAME	micompu.aula2.midominio.red.
+
+mail.aula2.midominio.red.		IN	A	172.16.2.240
+aula2.midominio.red.			IN	MX	10	mail.aula2.midominio.red.
+
+compu1.aula2.midominio.red.		IN	A	172.16.2.201
+compu2.aula2.midominio.red.		IN	A	172.16.2.202
+compu3.aula2.midominio.red.		IN	A	172.16.2.203
+compu4.aula2.midominio.red.		IN	A	172.16.2.204
+compu5.aula2.midominio.red.		IN	A	172.16.2.205
+compu6.aula2.midominio.red.		IN	A	172.16.2.206
+compu7.aula2.midominio.red.		IN	A	172.16.2.207
+compu8.aula2.midominio.red.		IN	A	172.16.2.208
+compu9.aula2.midominio.red.		IN	A	172.16.2.209
+compu10.aula2.midominio.red.		IN	A	172.16.2.210
+compu11.aula2.midominio.red.		IN	A	172.16.2.211
+compu12.aula2.midominio.red.		IN	A	172.16.2.212
+compu13.aula2.midominio.red.		IN	A	172.16.2.213
+compu14.aula2.midominio.red.		IN	A	172.16.2.214
+compu15.aula2.midominio.red.		IN	A	172.16.2.215
+compu16.aula2.midominio.red.		IN	A	172.16.2.216
+compu17.aula2.midominio.red.		IN	A	172.16.2.217
+compu18.aula2.midominio.red.		IN	A	172.16.2.218
+compu19.aula2.midominio.red.		IN	A	172.16.2.219
+compu20.aula2.midominio.red.		IN	A	172.16.2.220
+compu21.aula2.midominio.red.		IN	A	172.16.2.221
+compu22.aula2.midominio.red.		IN	A	172.16.2.222
+compu23.aula2.midominio.red.		IN	A	172.16.2.223
+compu24.aula2.midominio.red.		IN	A	172.16.2.224
+compu25.aula2.midominio.red.		IN	A	172.16.2.225
+compu26.aula2.midominio.red.		IN	A	172.16.2.226
+compu27.aula2.midominio.red.		IN	A	172.16.2.227
+compu28.aula2.midominio.red.		IN	A	172.16.2.228
+compu29.aula2.midominio.red.		IN	A	172.16.2.229
+compu30.aula2.midominio.red.		IN	A	172.16.2.230
+compu31.aula2.midominio.red.		IN	A	172.16.2.231
+compu32.aula2.midominio.red.		IN	A	172.16.2.232
+compu33.aula2.midominio.red.		IN	A	172.16.2.233
+compu34.aula2.midominio.red.		IN	A	172.16.2.234
+compu35.aula2.midominio.red.		IN	A	172.16.2.235
+compu36.aula2.midominio.red.		IN	A	172.16.2.236
+compu37.aula2.midominio.red.		IN	A	172.16.2.237
+compu38.aula2.midominio.red.		IN	A	172.16.2.238
+compu39.aula2.midominio.red.		IN	A	172.16.2.239
